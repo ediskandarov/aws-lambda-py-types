@@ -12,6 +12,7 @@ typing-extensions = { version = "^3.7.4", python = "<3.8" }
 pytest = "^6.2.1"
 flake8 = "^3.8.4"
 mypy = "^0.790"
+black = "^20.8b1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
