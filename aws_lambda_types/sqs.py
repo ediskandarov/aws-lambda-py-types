@@ -3,7 +3,7 @@ from typing import Optional, List, Dict
 try:
     from typing import TypedDict, Literal
 except ImportError:
-    from typing_extensions import TypedDict, Literal
+    from typing_extensions import TypedDict, Literal  # type: ignore
 
 
 class SQSAttributesDict(TypedDict):
