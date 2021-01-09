@@ -6,6 +6,7 @@ authors = ["Eduard Iskandarov <eduard.iskandarov@yandex.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+typing-extensions = { version = "^3.7.4", python = "<3.8" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"

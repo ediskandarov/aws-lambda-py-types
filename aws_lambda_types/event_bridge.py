@@ -1,4 +1,9 @@
-from typing import TypedDict, List
+from typing import List
+
+try:
+    from typing import TypedDict
+except ImportError:
+    from typing_extensions import TypedDict
 
 
 ScheduledEventDict = TypedDict(

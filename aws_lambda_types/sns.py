@@ -1,4 +1,9 @@
-from typing import TypedDict, Literal, Union, Optional, List, Dict
+from typing import Union, Optional, List, Dict
+
+try:
+    from typing import TypedDict, Literal
+except ImportError:
+    from typing_extensions import TypedDict, Literal
 
 
 class SNSMessageAttributeDict(TypedDict):

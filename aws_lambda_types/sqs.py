@@ -1,4 +1,9 @@
-from typing import Literal, TypedDict, Optional, List, Dict
+from typing import Optional, List, Dict
+
+try:
+    from typing import TypedDict, Literal
+except ImportError:
+    from typing_extensions import TypedDict, Literal
 
 
 class SQSAttributesDict(TypedDict):
