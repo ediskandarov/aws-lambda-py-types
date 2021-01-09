@@ -1,0 +1,20 @@
+{
+    "Records": [
+        {
+            "attributes": {
+                "ApproximateFirstReceiveTimestamp": "1609570278936",
+                "ApproximateReceiveCount": "1",
+                "SenderId": "AIDAISDDSWNBEXIA6J64K",
+                "SentTimestamp": "1609570278933"
+            },
+            "awsRegion": "eu-central-1",
+            "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"833399dd-5110-5a81-a553-c1b74b36efe6\",\n  \"TopicArn\" : \"arn:aws:sns:eu-central-1:386635533411:enveloped\",\n  \"Message\" : \"Hello 20201!\",\n  \"Timestamp\" : \"2021-01-02T06:51:18.901Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"IwAOqtwRIDFzLzePvLiy0C1z4Wmml+zip/0Bx50jghpSttYS+HX004iNGZq4IRRef49sPiFEV7Dng6arRB4OwDgAdHIby9ykyZKWvR5nxDjOmQvBfEtY13B32LkfsQMd2sMTtqkeb8xqYyTs45G5GMI0zpKZZV+CkSuWSpglg8CXpL0Z0MNhE9PEEdckd/gMKs1fYPt3u7Ikvz5FwgtciI7Vk7VQdaXJrk367KjmuWnvG2XnpocOg4kDdt7T/dVU/RtKK1Z23sIA3BKg+o8zfvh1dwMJwZuIyvZquu6oy/cNZd4V8Q8dV60OPuu6P1ni2EeE09gsrjSjhWjy7u1dcw==\",\n  \"SigningCertURL\" : \"https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem\",\n  \"UnsubscribeURL\" : \"https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:386635533411:enveloped:9fe5d0ea-18c1-44c3-bd01-fd9619cdd1c0\"\n}",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:eu-central-1:386635533411:envelope-sink",
+            "md5OfBody": "98ebd4caf6e93f926f96202ce2d4b243",
+            "messageAttributes": {},
+            "messageId": "ef8a884d-ab7c-4f03-a052-67eb7fa85aba",
+            "receiptHandle": "AQEBRBJj1/gipr38iWhyRNBNJTei6EwZae0xHYgAftWTvpgJXWG+YGyayvSDcRmhFgcMqVb3Mx4/eWQ7rogKD6gqcbK/ePOmMCvw25G2eyIu5jE4qvX3oZHixyIC0hw4V98yrQrz0yz1K405Wz14gDmVSyYEI5ma7mIWjvOdxoLB1atfAxPKaO5MpXs5bb7YA8p5zshxzcn301S1SWIv9tiyEZKi/hLIXaCTqQ8DYiuxIq03VC3dsL+bk5DeZve1vBUdgoXEP9JXu/7PwtVQ6pQkVtTxNjv01n1QW4T3kk+i7kFmQ5u41Oar9FC8A0dW0ZRObxVQioWLSjs8fEmTVKa3AI5KD1aEeYCaPDhB824tRkHUILVSlZ67VeVWumeQkDzYq+mT6ht+RnHoyccM3Nnnfg=="
+        }
+    ]
+}

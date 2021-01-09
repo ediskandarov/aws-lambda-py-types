@@ -1,0 +1,20 @@
+{
+    "Records": [
+        {
+            "attributes": {
+                "ApproximateFirstReceiveTimestamp": "1609570284994",
+                "ApproximateReceiveCount": "1",
+                "SenderId": "AIDAISDDSWNBEXIA6J64K",
+                "SentTimestamp": "1609570278933"
+            },
+            "awsRegion": "eu-central-1",
+            "body": "Hello 20201!",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:eu-central-1:386635533411:envelope-sink-raw",
+            "md5OfBody": "b619b6028baf1a582ce91feb3e89d286",
+            "messageAttributes": {},
+            "messageId": "e1978c0d-bfd9-4fd6-a33e-6bd791eb7cbe",
+            "receiptHandle": "AQEBxwd5uGIq/EaWow0LWZwyUD5mRw28bONIS2NFImSfkedic31IXZWcSkrUqe/A5uiNA/4Ube7Srve1N7L7h/1A8QcdjiyQz+40mScHauFrVQQ/uojcrPHimibjyBb6kI0B7/HyYVOMrsd3WaWvHOn2qRakq9K4hdd9qRlwFLNa82ax5jgMvJxSuTdxQ8Zu8YrEbktf3a7gDxclJmJO/USs6m2/XDunp89mIJzygbJTOtbqE7QqsYbUNrmj5vXJQObHdvI1NamUkFwQIIGWRFLL+5Xj4VD/+2RzL05GP7DwXbsqc6Y0HASdGFK/LtLmcvNaikQjXH/w3YIfpwFGw1VCKWtpojVd4wdqgVbA9vbd4otkJ24s+ID0k9NFA+83KNRSZHJoGchJiPuPIiUq0K7JRw=="
+        }
+    ]
+}
