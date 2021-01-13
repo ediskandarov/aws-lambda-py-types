@@ -1,0 +1,27 @@
+{
+    "body": "{\"username\":\"xyz\",\"password\":\"xyz\"}",
+    "headers": {
+        "accept": "*/*",
+        "content-length": "35",
+        "content-type": "application/json",
+        "head": "abc",
+        "host": "test-755069476.eu-central-1.elb.amazonaws.com",
+        "user-agent": "curl/7.54.0",
+        "x-amzn-trace-id": "Root=1-5fff2c3d-02201fad1b80d4fe331120e7",
+        "x-forwarded-for": "77.79.170.37",
+        "x-forwarded-port": "80",
+        "x-forwarded-proto": "http"
+    },
+    "httpMethod": "POST",
+    "isBase64Encoded": false,
+    "path": "/user/id/123123",
+    "queryStringParameters": {
+        "a": "bar",
+        "q": "baz"
+    },
+    "requestContext": {
+        "elb": {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:eu-central-1:386635533411:targetgroup/lambda/6a653f0ffbc88fec"
+        }
+    }
+}
