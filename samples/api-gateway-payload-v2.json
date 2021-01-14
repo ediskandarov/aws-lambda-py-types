@@ -1,0 +1,45 @@
+{
+    "body": "{\"username\":\"xyz\",\"password\":\"xyz\"}",
+    "cookies": [
+        "foo=bar"
+    ],
+    "headers": {
+        "accept": "*/*",
+        "content-length": "35",
+        "content-type": "application/json",
+        "head": "123,abc",
+        "host": "pr3k5m9ob8.execute-api.eu-central-1.amazonaws.com",
+        "user-agent": "curl/7.54.0",
+        "x-amzn-trace-id": "Root=1-5fffc60e-1679fb5a1d62219d67db18e1",
+        "x-forwarded-for": "77.79.170.37",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "isBase64Encoded": false,
+    "queryStringParameters": {
+        "a": "bar",
+        "q": "foo,baz"
+    },
+    "rawPath": "/logger",
+    "rawQueryString": "q=foo&a=bar&q=baz",
+    "requestContext": {
+        "accountId": "386635533411",
+        "apiId": "pr3k5m9ob8",
+        "domainName": "pr3k5m9ob8.execute-api.eu-central-1.amazonaws.com",
+        "domainPrefix": "pr3k5m9ob8",
+        "http": {
+            "method": "POST",
+            "path": "/logger",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "77.79.170.37",
+            "userAgent": "curl/7.54.0"
+        },
+        "requestId": "ZHviWj0LliAEMig=",
+        "routeKey": "ANY /logger",
+        "stage": "$default",
+        "time": "14/Jan/2021:04:18:22 +0000",
+        "timeEpoch": 1610597902927
+    },
+    "routeKey": "ANY /logger",
+    "version": "2.0"
+}

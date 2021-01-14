@@ -1,0 +1,103 @@
+{
+    "body": "{\"username\":\"xyz\",\"password\":\"xyz\"}",
+    "headers": {
+        "Content-Length": "35",
+        "Content-Type": "application/json",
+        "Cookie": "foo=bar",
+        "Host": "pr3k5m9ob8.execute-api.eu-central-1.amazonaws.com",
+        "User-Agent": "curl/7.54.0",
+        "X-Amzn-Trace-Id": "Root=1-5fffc75d-272ca7e75cb8ec6a02f15752",
+        "X-Forwarded-For": "77.79.170.37",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https",
+        "accept": "*/*",
+        "head": "abc"
+    },
+    "httpMethod": "POST",
+    "isBase64Encoded": false,
+    "multiValueHeaders": {
+        "Content-Length": [
+            "35"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Cookie": [
+            "foo=bar"
+        ],
+        "Host": [
+            "pr3k5m9ob8.execute-api.eu-central-1.amazonaws.com"
+        ],
+        "User-Agent": [
+            "curl/7.54.0"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5fffc75d-272ca7e75cb8ec6a02f15752"
+        ],
+        "X-Forwarded-For": [
+            "77.79.170.37"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ],
+        "accept": [
+            "*/*"
+        ],
+        "head": [
+            "123",
+            "abc"
+        ]
+    },
+    "multiValueQueryStringParameters": {
+        "a": [
+            "bar"
+        ],
+        "q": [
+            "foo",
+            "baz"
+        ]
+    },
+    "path": "/logger",
+    "pathParameters": null,
+    "queryStringParameters": {
+        "a": "bar",
+        "q": "baz"
+    },
+    "requestContext": {
+        "accountId": "386635533411",
+        "apiId": "pr3k5m9ob8",
+        "domainName": "pr3k5m9ob8.execute-api.eu-central-1.amazonaws.com",
+        "domainPrefix": "pr3k5m9ob8",
+        "extendedRequestId": "ZHwWkiwKliAEJNg=",
+        "httpMethod": "POST",
+        "identity": {
+            "accessKey": null,
+            "accountId": null,
+            "caller": null,
+            "cognitoAmr": null,
+            "cognitoAuthenticationProvider": null,
+            "cognitoAuthenticationType": null,
+            "cognitoIdentityId": null,
+            "cognitoIdentityPoolId": null,
+            "principalOrgId": null,
+            "sourceIp": "77.79.170.37",
+            "user": null,
+            "userAgent": "curl/7.54.0",
+            "userArn": null
+        },
+        "path": "/logger",
+        "protocol": "HTTP/1.1",
+        "requestId": "ZHwWkiwKliAEJNg=",
+        "requestTime": "14/Jan/2021:04:23:57 +0000",
+        "requestTimeEpoch": 1610598237125,
+        "resourceId": "ANY /logger",
+        "resourcePath": "/logger",
+        "stage": "$default"
+    },
+    "resource": "/logger",
+    "stageVariables": null,
+    "version": "1.0"
+}
