@@ -1,0 +1,7 @@
+{
+    "isBase64Encoded": false,
+    "statusCode": 200,
+    "headers": {"headerName": "headerValue"},
+    "multiValueHeaders": {"headerName": ["headerValue", "headerValue2"]},
+    "body": "Hello from Lambda!"
+}
