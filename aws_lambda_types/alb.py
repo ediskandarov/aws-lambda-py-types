@@ -19,6 +19,14 @@ class ALBRequestDict(TypedDict):
     requestContext: ALBRequestContextDict
 
 
+class ALBResponseDict(TypedDict):
+    isBase64Encoded: bool
+    statusCode: int
+    statusDescription: str
+    headers: Dict[str, str]
+    body: str
+
+
 class ALBMultiValueRequestDict(TypedDict):
     body: str
     httpMethod: str
@@ -27,3 +35,11 @@ class ALBMultiValueRequestDict(TypedDict):
     multiValueQueryStringParameters: Dict[str, List[str]]
     path: str
     requestContext: ALBRequestContextDict
+
+
+class ALBMultiValueResponseDict(TypedDict):
+    isBase64Encoded: bool
+    statusCode: int
+    statusDescription: str
+    multiValueHeaders: Dict[str, List[str]]
+    body: str
