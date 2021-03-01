@@ -1,5 +1,5 @@
 lint:
-	poetry run mypy aws_lambda_types tests
+	poetry run mypy aws_lambda_types
 	poetry run black aws_lambda_types tests --check
 	poetry run isort --check-only aws_lambda_types tests
 	poetry run flake8 aws_lambda_types tests
