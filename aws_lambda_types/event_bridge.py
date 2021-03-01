@@ -1,10 +1,6 @@
 from typing import List
 
-try:
-    from typing import TypedDict
-except ImportError:
-    from typing_extensions import TypedDict
-
+from typing_extensions import TypedDict
 
 ScheduledEventDict = TypedDict(
     "ScheduledEventDict",
