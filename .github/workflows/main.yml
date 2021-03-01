@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install dev packages
-        run: pip install -r dev-requirements.txt
-      - name: Lint with flake8
-        run: flake8 aws_lambda_types
-      - name: Syntax check with black
-        run: black aws_lambda_types --check
+        run: poetry install
+      - name: Lint
+        run: make lint
+      - name: Test
+        run: make test

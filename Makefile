@@ -10,4 +10,4 @@ format:
 	poetry run isort aws_lambda_types tests
 
 test:
-	poetry run pytest tests
+	poetry run pytest tests -vv
