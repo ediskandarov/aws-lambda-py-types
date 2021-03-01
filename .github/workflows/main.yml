@@ -1,0 +1,26 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dev packages
+        run: pip install -r dev-requirements.txt
+      - name: Lint with flake8
+        run: flake8 aws_lambda_types
+      - name: Syntax check with black
+        run: black aws_lambda_types --check

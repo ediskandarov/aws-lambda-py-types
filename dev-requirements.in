@@ -1,0 +1,6 @@
+black
+flake8
+pip-tools
+setuptools
+twine
+wheel
