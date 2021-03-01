@@ -1,4 +1,5 @@
 from typing import Dict, List, Literal, Optional, TypedDict
+
 from .http import HTTP_METHODS
 
 
@@ -95,7 +96,7 @@ class APIGWPayloadV2RequestDict(TypedDict):
 
 
 class APIGWPayloadV2ResponseDict(TypedDict):
-    cookies : List[str]
+    cookies: List[str]
     isBase64Encoded: bool
     statusCode: int
     headers: Dict[str, str]
