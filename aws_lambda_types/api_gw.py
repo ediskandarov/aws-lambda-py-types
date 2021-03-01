@@ -1,4 +1,6 @@
-from typing import Dict, List, Literal, Optional, TypedDict
+from typing import Dict, List, Literal, Optional
+
+from typing_extensions import TypedDict
 
 from .http import HTTP_METHODS
 
