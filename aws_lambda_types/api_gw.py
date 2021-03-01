@@ -58,3 +58,45 @@ class APIGWPayloadV1ResponseDict(TypedDict):
     headers: Dict[str, str]
     multiValueHeaders: Dict[str, List[str]]
     body: str
+
+
+class APIGWPayloadV2RequestContextHTTPDict(TypedDict):
+    method: str
+    path: str
+    protocol: str
+    sourceIp: str
+    userAgent: str
+
+
+class APIGWPayloadV2RequestContextDict(TypedDict):
+    accountId: str
+    apiId: str
+    domainName: str
+    domainPrefix: str
+    http: APIGWPayloadV2RequestContextHTTPDict
+    requestId: str
+    routeKey: str
+    stage: str
+    time: str
+    timeEpoch: int
+
+
+class APIGWPayloadV2RequestDict(TypedDict):
+    body: str
+    cookies: List[str]
+    headers: Dict[str, str]
+    isBase64Encoded: bool
+    queryStringParameters: Dict[str, str]
+    rawPath: str
+    rawQueryString: str
+    requestContext: APIGWPayloadV2RequestContextDict
+    routeKey: str
+    version: Literal["2.0"]
+
+
+class APIGWPayloadV2ResponseDict(TypedDict):
+    cookies : List[str]
+    isBase64Encoded: bool
+    statusCode: int
+    headers: Dict[str, str]
+    body: str
