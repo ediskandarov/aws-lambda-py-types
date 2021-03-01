@@ -18,8 +18,13 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Install poetry
+        run: |
+          curl -sSL -o get-poetry.py https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py
+          python get-poetry.py -y
+          echo "$HOME/.poetry/bin" >> $GITHUB_PATH
       - name: Install dev packages
-        run: poetry install
+        run: poetry install --no-interaction
       - name: Lint
         run: make lint
       - name: Test
