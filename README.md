@@ -16,7 +16,7 @@ def lambda_handler(event: SNSEventDict, context):
     return message
 ```
 
-![usage.gif](./docs/usage.gif)
+![usage.gif](https://raw.githubusercontent.com/emcpow2/aws-lambda-py-types/main/docs/usage.gif)
 
 ## Useful documentation
 
