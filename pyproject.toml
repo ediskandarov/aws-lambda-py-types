@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "aws-lambda-types"
-version = "0.1.0"
-description = ""
+version = "0.2.0"
+description = "Type definitions for AWS Lambda events using Python type hinting."
+license = "MIT"
 authors = ["Eduard Iskandarov <eduard.iskandarov@yandex.ru>"]
+readme = "README.md"
+repository = "https://github.com/emcpow2/aws-lambda-py-types"
 
 [tool.poetry.dependencies]
 python = "^3.6.1"
