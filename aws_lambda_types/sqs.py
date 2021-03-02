@@ -3,7 +3,7 @@ from typing import Dict, List, Optional
 from typing_extensions import Literal, TypedDict
 
 
-class SQSAttributesDict(TypedDict):
+class SQSAttributesDict(TypedDict, total=False):
     ApproximateFirstReceiveTimestamp: int
     ApproximateReceiveCount: int
     MessageDeduplicationId: Optional[int]
