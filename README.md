@@ -7,14 +7,16 @@ Type definitions for AWS Lambda events using Python type hinting.
 ## A Simple Example
 
 ```py
-from aws_lambda_types import sns
+from aws_lambda_types.sns import SNSEventDict
 
 
-def lambda_handler(event: sns.SNSEventDict, context):
+def lambda_handler(event: SNSEventDict, context):
     message = event["Records"][0]["Sns"]["Message"]
     print("From SNS: " + message)
     return message
 ```
+
+![usage.gif](./docs/usage.gif)
 
 ## Useful documentation
 
