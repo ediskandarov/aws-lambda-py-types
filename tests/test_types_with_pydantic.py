@@ -1,7 +1,7 @@
 import pytest
 from pydantic import ValidationError
 
-from aws_lambda_types import alb, api_gw
+from aws_lambda_types import alb, api_gw, event_bridge, sns, sqs
 
 
 @pytest.mark.parametrize(
@@ -15,6 +15,11 @@ from aws_lambda_types import alb, api_gw
         ("api-gateway-payload-v1-response.json", api_gw.APIGWPayloadV1ResponseDict),
         ("api-gateway-payload-v2.json", api_gw.APIGWPayloadV2RequestDict),
         ("api-gateway-payload-v2-response.json", api_gw.APIGWPayloadV2ResponseDict),
+        ("cloudwatch.json", event_bridge.ScheduledEventDict),
+        ("sns-to-sqs-raw-message-delivery.json", sqs.SQSEventDict),
+        ("sns-to-sqs.json", sqs.SQSEventDict),
+        ("sqs.json", sqs.SQSEventDict),
+        ("sns.json", sns.SNSEventDict),
     ],
     indirect=True,
 )
