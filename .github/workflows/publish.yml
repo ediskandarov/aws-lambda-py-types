@@ -19,4 +19,6 @@ jobs:
           echo "$HOME/.poetry/bin" >> $GITHUB_PATH
       - name: Publish
         if: success()
-        run: poetry publish --build
+        run: |
+          poetry config pypi-token.pypi $POETRY_PYPI_TOKEN_PYPI
+          poetry publish --build
